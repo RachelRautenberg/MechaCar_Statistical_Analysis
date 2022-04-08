@@ -13,7 +13,9 @@ While performing linear regression provided statistical insight to this dataset,
 ### Summary Statistics on Suspension Coils
 
 Taking a look at overall suspension coil statistics the design specifications are met. The variance is not to exceed 100 pounds per square inch. However, when drilling down in to the manufacturing lots, we find that Lot3 greatly exceeds the design specification and likely should be excluded from use as the use of them in vehicles would be a great risk for safety. Both Lot1 and Lot2 meet design specifications.
-![coil_stats](https://github.com/RachelRautenberg/MechaCar_Statistical_Analysis/blob/main/Resources/coil_stats.PNG) ![coil_lot](https://github.com/RachelRautenberg/MechaCar_Statistical_Analysis/blob/main/Resources/coil_stats_by_lot.PNG)
+![coil_stats](https://github.com/RachelRautenberg/MechaCar_Statistical_Analysis/blob/main/Resources/coil_stats.PNG) 
+
+![coil_lot](https://github.com/RachelRautenberg/MechaCar_Statistical_Analysis/blob/main/Resources/coil_stats_by_lot.PNG)
 
 ### T-Tests on Suspension Coils
 
