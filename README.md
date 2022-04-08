@@ -18,6 +18,7 @@ Taking a look at overall suspension coil statistics the design specifications ar
 ### T-Tests on Suspension Coils
 
 T-Test of sample vs population: Reject the null hypothesis, means are not equal
+
 ![ttest_samp](https://github.com/RachelRautenberg/MechaCar_Statistical_Analysis/blob/main/Resources/ttest_samp.PNG)
 T-Test of Lot1 vs population: Do NOT reject the null hypothesis, not enough evidence against null hypothesis
 ![ttest_Lot1](https://github.com/RachelRautenberg/MechaCar_Statistical_Analysis/blob/main/Resources/ttest_Lot1.PNG)
