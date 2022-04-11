@@ -21,16 +21,16 @@ Taking a look at overall suspension coil statistics the design specifications ar
 
 T-Test of sample vs population: Reject the null hypothesis, means are not equal
 
-![ttest_samp]()
+![ttest_samp](https://github.com/RachelRautenberg/MechaCar_Statistical_Analysis/blob/main/Resources/ttest_samp.PNG)
 
 T-Test of Lot1 vs population: Do NOT reject the null hypothesis, not enough evidence against null hypothesis
 
-![ttest_Lot1]()
+![ttest_Lot1](https://github.com/RachelRautenberg/MechaCar_Statistical_Analysis/blob/main/Resources/ttest_Lot1.PNG)
 
 T-Test of Lot2 vs population: While this one could be be argued as not significant difference in means, the t-test result shows evidence to reject the null hypothesis
 
-![ttest_Lot2]()
+![ttest_Lot2](https://github.com/RachelRautenberg/MechaCar_Statistical_Analysis/blob/main/Resources/ttest_Lot2.PNG)
 
 T-Test of Lot3 vs population: Reject the null hypothesis, means are not equal
 
-![ttest_Lot3]()
+![ttest_Lot3](https://github.com/RachelRautenberg/MechaCar_Statistical_Analysis/blob/main/Resources/ttest_Lot3.PNG)
