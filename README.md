@@ -39,10 +39,8 @@ T-Test of Lot3 vs population: Reject the null hypothesis, means are not equal.
 
 ### Study Design: MechaCar vs. Competition
 
+In today's economy when fuel prices are higher and electric cars are a viable option, we will only consider comparables for this design. With fuel prices being high, consumers want efficient vehicles at an attainable price in a vehicle that requires low maintenance and high safety. While we determined in our MechaCar analysis that there is not a clear variable that affects miles per gallon, I would start with a multiple linear regression of to discover if there is a 'sweet spot' combination where they have landed a good combination of the variables for maximizing fuel efficiency. I also recommend a t-tests for cost, maintence, and safety ratings. This will allow MechaCar to evaluate how they stand up next to the competition. 
 
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
-In your description, address the following questions:
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+There would not by a null or alternative hypothesis with the multiple linear regression.  When completing the t-test MechaCar would gain insight on how they are priced compared to competition, how the maintenance costs compare to the competition, as well as how their ratings are in comparison.  The null hypothesis would be that MechaCar and the competition have the same ( or statistically similar) costs or rating, depending on which of the three suggested t-tests we are reviewing.  The alternative hypothesis would then be that these categories are not the same (or statistically similar) enough to accept the null. 
+
+For the linear regression, we would need a similar dataset to that of MechaCar, where we can run the regression agains mpg with the competitions vehicle lengths, weights, ground clearance, spoiler, and if they have any other specialized component that is assumed to affect overall mpg.  We would also need pricing, maintenance frequencies and cost, and safety ratings in order to complete the suggested analysis. 
