@@ -17,6 +17,7 @@ Taking a look at overall suspension coil statistics the design specifications ar
 
 ![coil_lot](https://github.com/RachelRautenberg/MechaCar_Statistical_Analysis/blob/main/Resources/coil_stats_by_lot.PNG)
 
+
 ### T-Tests on Suspension Coils
 
 T-Test of sample vs population: With the sample mean being 1498.78 and a significance level above only slightly above 0.05 we should reject the null hypothesis that the means are equal.  
@@ -34,3 +35,14 @@ T-Test of Lot2 vs population: While this one could be be argued as not significa
 T-Test of Lot3 vs population: Reject the null hypothesis, means are not equal.
 
 ![ttest_Lot3](https://github.com/RachelRautenberg/MechaCar_Statistical_Analysis/blob/main/Resources/ttest_Lot3.PNG)
+
+
+### Study Design: MechaCar vs. Competition
+
+
+Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+In your description, address the following questions:
+What metric or metrics are you going to test?
+What is the null hypothesis or alternative hypothesis?
+What statistical test would you use to test the hypothesis? And why?
+What data is needed to run the statistical test?
