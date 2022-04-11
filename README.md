@@ -19,18 +19,18 @@ Taking a look at overall suspension coil statistics the design specifications ar
 
 ### T-Tests on Suspension Coils
 
-T-Test of sample vs population: Reject the null hypothesis, means are not equal
+T-Test of sample vs population: With the sample mean being 1498.78 and a significance level above only slightly above 0.05 we should reject the null hypothesis that the means are equal.  
 
 ![ttest_samp](https://github.com/RachelRautenberg/MechaCar_Statistical_Analysis/blob/main/Resources/ttest_samp.PNG)
 
-T-Test of Lot1 vs population: Do NOT reject the null hypothesis, not enough evidence against null hypothesis
+T-Test of Lot1 vs population: Do NOT reject the null hypothesis, not enough evidence against null hypothesis.  As seen in the information below, the mean of Lot2 is exactly 1500 and has a p-value of 1, clearly supporting that we should not reject the null hypothesis and that the mean of Lot1 and the given mean of the population (1500) are equal.
 
 ![ttest_Lot1](https://github.com/RachelRautenberg/MechaCar_Statistical_Analysis/blob/main/Resources/ttest_Lot1.PNG)
 
-T-Test of Lot2 vs population: While this one could be be argued as not significant difference in means, the t-test result shows evidence to reject the null hypothesis
+T-Test of Lot2 vs population: While this one could be be argued as not significant difference in means, the t-test result shows evidence to reject the null hypothesis. While very similar, the mean of Lot2 and the given mean of 1500 are not equal.
 
 ![ttest_Lot2](https://github.com/RachelRautenberg/MechaCar_Statistical_Analysis/blob/main/Resources/ttest_Lot2.PNG)
 
-T-Test of Lot3 vs population: Reject the null hypothesis, means are not equal
+T-Test of Lot3 vs population: Reject the null hypothesis, means are not equal.
 
 ![ttest_Lot3](https://github.com/RachelRautenberg/MechaCar_Statistical_Analysis/blob/main/Resources/ttest_Lot3.PNG)
