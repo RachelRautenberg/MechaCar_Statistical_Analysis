@@ -21,17 +21,17 @@ lot_summary <- Susp_Coils %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mea
 
 # Deliverable 3
 population_mean <- 1500
-ttest_samp <- t.test(Susp_Coils$PSI, mean=population_mean) #compare sample vs population
+ttest_samp <- t.test(Susp_Coils$PSI, mu=population_mean) #compare sample vs population
 ttest_samp
 
 Lot1 <- subset(Susp_Coils, Manufacturing_Lot == "Lot1")
-ttest_lot1 <- t.test(Lot1$PSI, mean=population_mean) # compare Lot1 to population
+ttest_lot1 <- t.test(Lot1$PSI, mu=population_mean) # compare Lot1 to population
 ttest_lot1
 
 Lot2 <- subset(Susp_Coils, Manufacturing_Lot == "Lot2")
-ttest_lot2 <- t.test(Lot2$PSI, mean=population_mean) # compare Lot2 to population
+ttest_lot2 <- t.test(Lot2$PSI, mu=population_mean) # compare Lot2 to population
 ttest_lot2
 
 Lot3 <- subset(Susp_Coils, Manufacturing_Lot == "Lot3")
-ttest_lot3 <- t.test(Lot3$PSI, mean=population_mean) # compare Lot3 to population
+ttest_lot3 <- t.test(Lot3$PSI, mu=population_mean) # compare Lot3 to population
 ttest_lot3
